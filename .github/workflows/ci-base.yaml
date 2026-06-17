@@ -30,3 +30,4 @@ jobs:
           private_key2: ${{ secrets.GH_APP_PKEY2 }}
           gcp_cicd_sa: ${{ secrets.GCP_CICD_SA }}
           slack_bot_token: ${{ secrets.SLACK_BOT_TOKEN }}
+          slack_cicd_webhook_url: ${{ secrets.SLACK_CICD_WEBHOOK_URL }}
